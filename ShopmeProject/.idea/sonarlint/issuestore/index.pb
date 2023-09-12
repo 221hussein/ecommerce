@@ -5,8 +5,6 @@ D
 ShopmeCommon/HELP.md,e\9\e987704296d7610837a5d0352d1d7b8392ba3f11
 U
 %ShopmeWebParent/ShopmeBackEnd/HELP.md,5\e\5ecb270f40b20640b66b906ee92132250b6eddb6
-€
-PShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MainController.java,a\9\a9766cad7c3afa5107bddd56ed69ee20de395e4d
 D
 ShopmeCommon/pom.xml,b\3\b3feea2ddeac6e86c0de438e1d735493207314bb
 V
