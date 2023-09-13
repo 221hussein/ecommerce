@@ -46,4 +46,8 @@ public class UserService {
 
         return userByEmail == null;
     }
+
+    public User get(Integer id) {
+
+    }
 }
