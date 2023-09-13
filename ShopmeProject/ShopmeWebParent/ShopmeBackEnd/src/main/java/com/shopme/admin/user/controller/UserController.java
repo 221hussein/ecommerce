@@ -1,5 +1,6 @@
 package com.shopme.admin.user.controller;
 
+import com.shopme.admin.user.exception.UserNotFoundException;
 import com.shopme.admin.user.service.UserService;
 import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
@@ -36,6 +37,7 @@ public class UserController {
         
         model.addAttribute("user", user);
         model.addAttribute("listRoles",listRoles);
+        model.addAttribute("pageTitle","Create New User");
 
         return "user_form";
     }
@@ -50,9 +52,21 @@ public class UserController {
     }
 
     @GetMapping("/users/edit/{id}")
-    public String editUser(@PathVariable(name = "id") Integer id) {
-        User user = userService.get(id);
-        return "user_from";
+    public String editUser(@PathVariable(name = "id") Integer id,
+                           Model model,
+                           RedirectAttributes redirectAttributes) {
+        try{
+            User user = userService.get(id);
+            List<Role> listRoles = userService.listRoles();
+            model.addAttribute("user",user);
+            model.addAttribute("pageTitle","Edit User (ID : " + id +")");
+            model.addAttribute("listRoles",listRoles);
+
+            return "user_form";
+        }catch (UserNotFoundException ex) {
+            redirectAttributes.addFlashAttribute("message", ex.getMessage());
+            return "redirect:/users";
+        }
     }
 }
 
