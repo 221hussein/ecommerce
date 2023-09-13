@@ -17,3 +17,13 @@ V
 PShopmeWebParent/ShopmeFrontEnd/src/main/java/com/shopme/site/MainController.java,2\a\2a61a55a759bd1aed63ca4835eab989f38e7491e
 S
 #ShopmeWebParent/ShopmeWebParent.iml,8\b\8b7228f55a1aeaf7067b6d360cbd9c9333e0d10b
+G
+ShopmeWebParent/pom.xml,b\7\b7c3cc612a5679784f794cefdf3efce5c5bd939a
+å
+\ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java,4\a\4a896bb2b4e04d8fc7927901a5cac30e33f8ae19
+ä
+ZShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/PasswordEncoderTest.java,1\5\155b27d08dae8279e2b709ee09f2f77a640b594c
+ê
+`ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/controller/MainController.java,2\9\293f6af5dea7980a05cafa1823df0122f32c6d99
+ä
+ZShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/ShopmeBackEndApplication.java,a\0\a0a078a1549e838333e88733dd74a3f720ca944a
