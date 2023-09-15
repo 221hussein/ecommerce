@@ -10,10 +10,12 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 @Service
+@Transactional
 public class UserService {
 
     @Autowired
@@ -34,7 +36,7 @@ public class UserService {
         return (List<Role>) roleRepository.findAll();
     }
 
-    public void save(User user) {
+    public User save(User user) {
         boolean isUpdatingUser = (user.getId() != null);
         if (isUpdatingUser) {
             User existingUser = userRepository.findById(user.getId()).get();
@@ -47,7 +49,7 @@ public class UserService {
         }else {
             encodePassword(user);
         }
-        userRepository.save(user);
+        return userRepository.save(user);
     }
 
     private void encodePassword(User user) {
@@ -85,5 +87,9 @@ public class UserService {
             throw  new UserNotFoundException("Could not find any user with ID " +id);
         }
         userRepository.deleteById(id);
+    }
+
+    public void updateUserEnabledStatuts(Integer id, boolean enabled) {
+        userRepository.updateEnabledStatus(id, enabled);
     }
 }
