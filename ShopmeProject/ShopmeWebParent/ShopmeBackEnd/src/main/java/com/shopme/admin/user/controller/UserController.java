@@ -58,6 +58,7 @@ public class UserController {
             user.setPhotos(fileName);
             User savedUser = userService.save(user);
             String uploadDir = "user-photos/" + savedUser.getId();
+            FileUploadUtil.cleanDir(uploadDir);
             FileUploadUtil.savedFile(uploadDir,fileName,multipartFile);
         }
 
