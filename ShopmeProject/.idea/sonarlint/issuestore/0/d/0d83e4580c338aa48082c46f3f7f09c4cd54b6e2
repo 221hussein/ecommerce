@@ -1,43 +1,47 @@
 
 J
-java:S26990"-Add at least one assertion to this test case.(óÂôµ8¹»Ÿú¨1
+java:S26995"-Add at least one assertion to this test case.(óÂôµ8¶·¼Â©1
 J
-java:S2699="-Add at least one assertion to this test case.(ñÇÜÉ8º»Ÿú¨1
+java:S2699B"-Add at least one assertion to this test case.(ñÇÜÉ8··¼Â©1
 J
-java:S2699H"-Add at least one assertion to this test case.(î¼¾¸8¾»Ÿú¨1
+java:S2699M"-Add at least one assertion to this test case.(î¼¾¸8¸·¼Â©1
 O
-java:S2699U"-Add at least one assertion to this test case.(Ãç´§øÿÿÿÿ8¿»Ÿú¨1
+java:S2699Z"-Add at least one assertion to this test case.(Ãç´§øÿÿÿÿ8¸·¼Â©1
 I
-java:S2699k"-Add at least one assertion to this test case.(Ü¸ÿK8Îæµú¨1
+java:S2699p"-Add at least one assertion to this test case.(Ü¸ÿK8¸·¼Â©1
 O
-java:S2699r"-Add at least one assertion to this test case.(–ÙœÚşÿÿÿÿ8¢…¶ú¨1
+java:S2699w"-Add at least one assertion to this test case.(–ÙœÚşÿÿÿÿ8¸·¼Â©1
 ;
-java:S5786"Remove this 'public' modifier.(ÿƒè8Á»Ÿú¨1
+java:S5786"Remove this 'public' modifier.(ÿƒè8¹·¼Â©1
 @
-java:S5786#"Remove this 'public' modifier.(÷Ë°Îúÿÿÿÿ8Á»Ÿú¨1
+java:S5786("Remove this 'public' modifier.(÷Ë°Îúÿÿÿÿ8º·¼Â©1
 ;
-java:S57860"Remove this 'public' modifier.(óÂôµ8Á»Ÿú¨1
+java:S57865"Remove this 'public' modifier.(óÂôµ8º·¼Â©1
 @
-java:S57866"Remove this 'public' modifier.(ÙÍÙâúÿÿÿÿ8Â»Ÿú¨1
+java:S5786;"Remove this 'public' modifier.(ÙÍÙâúÿÿÿÿ8º·¼Â©1
 ;
-java:S5786="Remove this 'public' modifier.(ñÇÜÉ8Â»Ÿú¨1
+java:S5786B"Remove this 'public' modifier.(ñÇÜÉ8»·¼Â©1
 ;
-java:S5786H"Remove this 'public' modifier.(î¼¾¸8Â»Ÿú¨1
+java:S5786M"Remove this 'public' modifier.(î¼¾¸8»·¼Â©1
 @
-java:S5786U"Remove this 'public' modifier.(Ãç´§øÿÿÿÿ8Ã»Ÿú¨1
+java:S5786Z"Remove this 'public' modifier.(Ãç´§øÿÿÿÿ8»·¼Â©1
 ;
-java:S5786["Remove this 'public' modifier.(ò‚ªØ8Ã»Ÿú¨1
+java:S5786`"Remove this 'public' modifier.(ò‚ªØ8»·¼Â©1
 @
-java:S5786c"Remove this 'public' modifier.(âÅÂÿÿÿÿÿ8Ä»Ÿú¨1
+java:S5786h"Remove this 'public' modifier.(âÅÂÿÿÿÿÿ8»·¼Â©1
 :
-java:S5786k"Remove this 'public' modifier.(Ü¸ÿK8Ä»Ÿú¨1
+java:S5786p"Remove this 'public' modifier.(Ü¸ÿK8»·¼Â©1
 @
-java:S5786r"Remove this 'public' modifier.(–ÙœÚşÿÿÿÿ8ü° ú¨1
+java:S5786w"Remove this 'public' modifier.(–ÙœÚşÿÿÿÿ8»·¼Â©1
 @
-java:S5786"Remove this 'public' modifier.(ëÒ£ùùÿÿÿÿ8«…¶ú¨1
+java:S5786}"Remove this 'public' modifier.(ÉÀŸ¾ıÿÿÿÿ8¼·¼Â©1
+@
+java:S5786"Remove this 'public' modifier.(ëÒ£ùùÿÿÿÿ8¼·¼Â©1
 6
-java:S5838 "Use isPositive() instead.(ÛÓÜÃ8Å»Ÿú¨1
+java:S5838%"Use isPositive() instead.(ÛÓÜÃ8¾·¼Â©1
 6
-java:S5838,"Use isPositive() instead.(ÛÓÜÃ8Æ»Ÿú¨1
+java:S58381"Use isPositive() instead.(ÛÓÜÃ8¿·¼Â©1
 6
-java:S5838g"Use isPositive() instead.(”åå8É»Ÿú¨1
+java:S5838l"Use isPositive() instead.(”åå8Ä·¼Â©1
+O
+java:S5838…"1Use assertThat(actual).hasSize(expected) instead.(–Áò8ù·¼Â©1

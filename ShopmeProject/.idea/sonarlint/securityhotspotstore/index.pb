@@ -41,3 +41,7 @@ ZShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/service/UserS
 `ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/controller/UserController.java,2\0\20c18374941e992e72e7afeae7f15896cbad2797
 ‹
 [ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/FileUploadUtil.java,4\8\485e8e0cd3b12f5656688e5734341547b8b5bc25
+‡
+WShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/config/MvcConfig.java,1\a\1a90deeb1ba95b8360c13bdb74a450733c2ee452
+m
+=ShopmeCommon/src/main/java/com/shopme/common/entity/User.java,e\f\ef57eda6d30900e83ba0673a88b1142199a34039
