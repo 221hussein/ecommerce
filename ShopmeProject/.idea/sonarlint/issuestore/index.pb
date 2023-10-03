@@ -45,3 +45,7 @@ ZShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/service/UserS
 WShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/config/MvcConfig.java,1\a\1a90deeb1ba95b8360c13bdb74a450733c2ee452
 m
 =ShopmeCommon/src/main/java/com/shopme/common/entity/User.java,e\f\ef57eda6d30900e83ba0673a88b1142199a34039
+U
+%ShopmeWebParent/ShopmeBackEnd/pom.xml,5\d\5d0cf146c3dd37d0ab565925d767588717c8f0b8
+Œ
+\ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/UserCsvExporter.java,2\5\251efaa18304ebf4f934848fadf19102bca7dadd

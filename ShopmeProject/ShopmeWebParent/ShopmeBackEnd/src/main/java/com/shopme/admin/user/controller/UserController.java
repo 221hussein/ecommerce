@@ -4,6 +4,7 @@ import com.shopme.admin.user.exception.UserNotFoundException;
 import com.shopme.admin.user.service.UserService;
 import com.shopme.admin.user.utils.FileUploadUtil;
 import com.shopme.admin.user.utils.UserCsvExporter;
+import com.shopme.admin.user.utils.UserExcelExporter;
 import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -165,6 +166,16 @@ public class UserController {
         List<User> listUser = userService.listAll();
         UserCsvExporter exporter = new UserCsvExporter();
         exporter.export(listUser,response);
+
+    }
+
+    @GetMapping("/users/export/excel")
+    public void exportToExcel(HttpServletResponse response) throws IOException {
+        List<User> listUsers = userService.listAll();
+
+        UserExcelExporter exporter = new UserExcelExporter();
+        exporter.export(listUsers,response);
+
     }
 }
 
