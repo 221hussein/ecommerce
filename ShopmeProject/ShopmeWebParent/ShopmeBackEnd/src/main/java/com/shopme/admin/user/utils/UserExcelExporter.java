@@ -3,8 +3,6 @@ package com.shopme.admin.user.utils;
 import com.shopme.common.entity.User;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.xssf.usermodel.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;

@@ -49,3 +49,11 @@ U
 %ShopmeWebParent/ShopmeBackEnd/pom.xml,5\d\5d0cf146c3dd37d0ab565925d767588717c8f0b8
 å
 \ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/UserCsvExporter.java,2\5\251efaa18304ebf4f934848fadf19102bca7dadd
+é
+^ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/UserExcelExporter.java,d\c\dc81671daf403a181e167fa328f0868f705974f5
+ç
+]ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/AbstractExporter.java,3\a\3ac4539c6abfb9fdb8c7d299e49383638ae9baa8
+m
+=ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java,1\c\1c6673dd93f2560c646d63ac26bc77db2cdf534e
+å
+\ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/utils/UserPdfExporter.java,3\2\32c6ac9136a0ff2deea3d37cc383c14abf9e669f
